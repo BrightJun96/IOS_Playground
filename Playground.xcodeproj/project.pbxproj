@@ -14,6 +14,7 @@
 		8121F4DE2D143237002EB1B0 /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8121F4DD2D143237002EB1B0 /* PlaygroundTests.swift */; };
 		8121F4E82D143237002EB1B0 /* PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8121F4E72D143237002EB1B0 /* PlaygroundUITests.swift */; };
 		8121F4EA2D143237002EB1B0 /* PlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8121F4E92D143237002EB1B0 /* PlaygroundUITestsLaunchTests.swift */; };
+		8121F4F72D1434AB002EB1B0 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8121F4F62D1434AB002EB1B0 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8121F4E32D143237002EB1B0 /* PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8121F4E72D143237002EB1B0 /* PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITests.swift; sourceTree = "<group>"; };
 		8121F4E92D143237002EB1B0 /* PlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8121F4F62D1434AB002EB1B0 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		8121F4CB2D143234002EB1B0 /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				8121F4F62D1434AB002EB1B0 /* WebView.swift */,
 				8121F4CC2D143234002EB1B0 /* PlaygroundApp.swift */,
 				8121F4CE2D143234002EB1B0 /* ContentView.swift */,
 				8121F4D02D143237002EB1B0 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8121F4F72D1434AB002EB1B0 /* WebView.swift in Sources */,
 				8121F4CF2D143234002EB1B0 /* ContentView.swift in Sources */,
 				8121F4CD2D143234002EB1B0 /* PlaygroundApp.swift in Sources */,
 			);
